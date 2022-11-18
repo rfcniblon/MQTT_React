@@ -1,11 +1,11 @@
 # MQTT_React
 
 ## Documentation
-Souscrire in Terminal
+### Souscrire au canal "test" depuis un Terminal ###
 
-### mqtt sub -t 'test' -h localhost ###
+ mqtt sub -t 'test' -h localhost
 
-Publier in Terminal
+### Publier au canal "test" depuis un Terminal ###
 
-### mqtt pub -t 'test' -h localhost -m 'from commandline'###
+ mqtt pub -t 'test' -h localhost -m 'from commandline'
 
