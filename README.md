@@ -1,7 +1,6 @@
 # MQTT_React
 
-## Documentation
-### Souscrire au canal "test" depuis un Terminal ###
+## Souscrire au canal "test" depuis un Terminal ##
 
  mqtt sub -t 'test' -h localhost
 
