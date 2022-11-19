@@ -1,9 +1,9 @@
-# MQTT_React
+# MQTT React ESP8266 ESPEASY
 
 ## info
 
 ### Composant MessageList pour recupérer les messages 
-### Composant MessageSonde pour récupérer les valeurs des sondes 1 et 2
+### Composant MessageSonde pour récupérer les valeurs des sondes 1 et 2 de l'ESP8266
 
 #### sub   = souscrire au canal
 #### pub   = publier un message
