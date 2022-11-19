@@ -2,17 +2,25 @@
   "name": "mqtt-react",
   "version": "0.1.0",
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "react-scripts": "^2.1.3"
   },
   "dependencies": {
-    "mqtt-react": "0.0.2",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "dotenv": "^16.0.3",
+    "mqtt": "^4.3.7",
+    "mqtt-react": "^0.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
