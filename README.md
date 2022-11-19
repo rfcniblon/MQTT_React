@@ -1,9 +1,9 @@
 # MQTT React ESP8266 ESPEASY
 
-## info
+## informations :
 
-### Composant MessageList pour recupérer les messages 
-### Composant MessageSonde pour récupérer les valeurs des sondes 1 et 2 de l'ESP8266
+### Renseigner ip et port du broker dans le fichier .env
+### Affiche les données reçu du broker ou affiche les valeurs des sondes de l'esp8266
 
 #### sub   = souscrire au canal
 #### pub   = publier un message
@@ -13,11 +13,8 @@
 #### -u    = utilisateur
 #### -P    = mot de pass
 
-## Souscrire au canal "test" depuis un Terminal
 
- mqtt sub -t 'test' -h localhost -p 8885 -t user -P pass
-
+## Souscription au canal "test" depuis un Terminal
+#### mqtt sub -t 'test' -h localhost -p 8885 -t user -P pass
 ## Publier au canal "test" depuis un Terminal
-
- mqtt pub -t 'test' -h localhost -p 8885 -t user -P pass -m 'hello world'
-
+#### mqtt pub -t 'test' -h localhost -p 8885 -t user -P pass -m 'hello world'
