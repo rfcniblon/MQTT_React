@@ -10,9 +10,9 @@ pub   = publier un message
 
 ## Souscrire au canal "test" depuis un Terminal
 
- mqtt sub -t 'test' -h localhost -P 8885 -t user -P pass
+ mqtt sub -t 'test' -h localhost -p 8885 -t user -P pass
 
 ## Publier au canal "test" depuis un Terminal
 
- mqtt pub -t 'test' -h localhost -P 8885 -t user -P pass -m 'hello world'
+ mqtt pub -t 'test' -h localhost -p 8885 -t user -P pass -m 'hello world'
 
